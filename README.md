@@ -4,7 +4,7 @@ This is a simple [AppImage](https://appimage.org/) for [Photopea](https://www.ph
 
 It works exactly like the browser version does. You need to be online to use it, but once the application is loaded, you can disconnect from the Internet.
 
-Download '[Photopea 1.0.0.AppImage](https://github.com/spooknik/Photopea-Appimage/raw/master/Photopea%201.0.0.AppImage)', make executable, and double click. 
+Download '[Photopea 1.0.0.AppImage](https://github.com/spooknik/Photopea-Appimage/releases/download/1.1.0/Photopea_1.1.0.AppImage)', make executable, and double click. 
 
 You can build the source by running build.sh. Requires [yarn](https://yarnpkg.com/lang/en/) and Electron
 
