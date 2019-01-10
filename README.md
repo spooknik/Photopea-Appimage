@@ -6,6 +6,8 @@ It works exactly like the browser version does. You need to be online to use it,
 
 Download '[Photopea 1.0.0.AppImage](https://github.com/spooknik/Photopea-Appimage/releases/download/1.1.0/Photopea_1.1.0.AppImage)', make executable, and double click. 
 
+If somethings goes wrong or doesn't look right inside the app, delete ~/.config/Photopea. This is the cache folder location for the app. 
+
 You can build the source by running build.sh. Requires [yarn](https://yarnpkg.com/lang/en/) and Electron
 
 **Known Issues**
