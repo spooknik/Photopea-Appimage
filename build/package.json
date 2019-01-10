@@ -1,8 +1,11 @@
 {  
    "name":"Photopea",
-   "version":"1.0.0",
-   "description":"Placeholder for the nativefier cli to override with a target url",
+   "version":"1.1.0",
+   "description":"Photopea in AppImage",
    "main":"lib/main.js",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/spooknik/Photopea-Appimage",
    "dependencies":{  
       "electron-context-menu":"^0.10.0",
       "electron-dl":"^1.10.0",
@@ -14,13 +17,13 @@
    "devDependencies":{  
       "electron":"^4.0.1"
    },
-   "scripts":{  
-      "test":"echo \"Error: no test specified\" && exit 1"
-   },
    "keywords":[  
       "desktop",
-      "electron"
+      "electron",
+      "photopea",
+      "Appimage"
    ],
-   "author":"Steven Phillips",
+   "author":"Steven (Spooknik) Phillips",
    "license":"MIT"
+   }
 }
