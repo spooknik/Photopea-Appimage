@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+  const { ipcRenderer } = require('electron')
+  const update = () => ipcRenderer.send('status-changed', navigator.onLine)
+
+  window.addEventListener('online',  update)
+  window.addEventListener('offline',  update)
+
+  update()
+</script>
+</body>
+</html>
