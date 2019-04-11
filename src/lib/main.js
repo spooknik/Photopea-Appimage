@@ -4215,7 +4215,7 @@ function registerListener(session, options, cb = () => {}) {
 		const errorMessage = options.errorMessage || 'The download of {filename} was interrupted';
 		const errorTitle = options.errorTitle || 'Download Error';
 
-		if (!options.saveAs) {
+		if (options.saveAs) {
 			item.setSavePath(filePath);
 		}
 
