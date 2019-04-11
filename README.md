@@ -10,6 +10,8 @@ If somethings goes wrong or doesn't look right inside the app, delete ~/.config/
 
 You can build the source by running build.sh. Requires [yarn](https://yarnpkg.com/lang/en/) and Electron
 
+Also see: [Photopea-Windows](https://github.com/spooknik/Photopea-Windows) for a Windows verison. 
+
 **Known Issues**
 - Closing the window when an unsaved document is open does not do anything. All documents must be closed or saved to exit the program. (Possibility a problem with Electron, will check when 5.0 is released.)
 - No dialog box pops up when saving/exporting images, everything just goes to Downloads (No known fix, seems to be part of Photopea)
