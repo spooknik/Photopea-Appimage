@@ -1,5 +1,10 @@
 # Changelog for Photopea-Appimage
 
+## [1.2.1] - 2019-11-04
+
+### Added
+- Function for 'save as' so you can choose where files will be saved. Previously everything was just saved to downloads.
+
 ## [1.2.0] - 2019-13-01
 
 ### Added
