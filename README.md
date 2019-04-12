@@ -13,8 +13,8 @@ You can build the source by running build.sh. Requires [yarn](https://yarnpkg.co
 Also see: [Photopea-Windows](https://github.com/spooknik/Photopea-Windows) for a Windows verison. 
 
 **Known Issues**
-- Closing the window when an unsaved document is open does not do anything. All documents must be closed or saved to exit the program. (Possibility a problem with Electron, will check when 5.0 is released.)
-- No dialog box pops up when saving/exporting images, everything just goes to Downloads (No known fix, seems to be part of Photopea)
+- Closing the window when an unsaved document is open does not do anything. All documents must be closed or saved to exit the program. (This is because html alert() is not possible in electron)
+- ~~No dialog box pops up when saving/exporting images, everything just goes to Downloads (No known fix, seems to be part of Photopea)~~
 - ~~.desktop file does not work correctly. It will not appear in your applications menu. (Will fix ASAP)~~ Fixed as of 1.1.0
 
 ![App Image](https://raw.githubusercontent.com/spooknik/Photopea-Appimage/master/app.png)
